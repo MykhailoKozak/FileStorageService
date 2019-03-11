@@ -63,3 +63,860 @@
 2019-03-09 22:05:15 INFO  lab.dao.FileDAO:25 - File created: true
 2019-03-09 22:05:15 INFO  lab.dao.FileDAO:29 - File is less than 1MB 0
 2019-03-09 22:05:17 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-09 22:09:34 INFO  web.context.ContextLoader:285 - Root WebApplicationContext: initialization started
+2019-03-09 22:09:35 INFO  context.support.XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sat Mar 09 22:09:35 EET 2019]; root of context hierarchy
+2019-03-09 22:09:35 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_soap.xml]
+2019-03-09 22:09:36 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-09 22:09:37 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_rest.xml]
+2019-03-09 22:09:37 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-09 22:09:37 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-09 22:09:37 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-09 22:09:37 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-09 22:09:37 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-09 22:09:37 INFO  factory.annotation.AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-09 22:09:42 INFO  web.context.ContextLoader:325 - Root WebApplicationContext: initialization completed in 7560 ms
+2019-03-09 22:10:17 INFO  web.rest.FileServiceImpl:46 - Method download file
+2019-03-09 22:10:17 INFO  lab.dao.FileDAO:65 - Method downloading file from server
+2019-03-09 22:10:17 INFO  lab.dao.FileDAO:75 - File is exists
+2019-03-09 22:10:18 INFO  lab.dao.FileDAO:78 - File is download
+2019-03-09 22:10:18 INFO  web.rest.FileServiceImpl:55 - Method download file result:true
+2019-03-10 17:05:46 INFO  web.context.ContextLoader:285 - Root WebApplicationContext: initialization started
+2019-03-10 17:05:46 INFO  context.support.XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sun Mar 10 17:05:46 EET 2019]; root of context hierarchy
+2019-03-10 17:05:46 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_soap.xml]
+2019-03-10 17:05:47 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-10 17:05:48 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_rest.xml]
+2019-03-10 17:05:48 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-10 17:05:48 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-10 17:05:48 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-10 17:05:48 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-10 17:05:48 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-10 17:05:48 INFO  factory.annotation.AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-10 17:05:52 INFO  web.context.ContextLoader:325 - Root WebApplicationContext: initialization completed in 6056 ms
+2019-03-10 17:11:06 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 17:11:06 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 17:11:06 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 17:11:06 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 17:11:06 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-10 17:12:45 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 17:12:45 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 17:12:45 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-10 17:12:45 WARN  web.rest.FileServiceImpl:36 - [New] file already exist
+2019-03-10 17:15:12 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 17:15:12 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 17:15:12 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 17:15:12 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 17:15:12 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-10 17:27:54 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 17:27:54 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-10 17:27:54 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:27:54 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:28:04 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:28:04 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:30:33 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:30:33 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:34:18 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:34:18 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:46:15 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:46:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:48:14 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:48:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:48:30 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:48:30 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 17:51:43 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New1
+2019-03-10 17:51:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 18:11:14 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 18:11:14 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 18:11:14 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 18:11:14 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 18:11:14 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-10 18:11:16 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 18:11:16 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 18:53:32 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 18:53:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 18:55:39 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 18:55:39 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 19:56:14 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 19:56:14 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 19:57:36 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 19:57:36 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-10 19:57:36 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 19:57:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 19:58:49 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 19:58:49 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:00:15 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:00:15 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:03:31 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:03:31 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:04:41 INFO  web.soap.FileService:18 - Method write file
+2019-03-10 20:04:41 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 20:04:41 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 20:04:41 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 20:04:41 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-10 20:04:43 INFO  web.soap.FileService:55 - Method delete file
+2019-03-10 20:04:43 INFO  lab.dao.FileDAO:90 - Method deleting file from server
+2019-03-10 20:04:43 INFO  lab.dao.FileDAO:98 - File is exists
+2019-03-10 20:04:43 INFO  lab.dao.FileDAO:100 - File is delete
+2019-03-10 20:04:43 INFO  web.soap.FileService:65 - Method delete file result:true
+2019-03-10 20:04:44 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:04:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:07:36 INFO  web.soap.FileService:18 - Method write file
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 20:07:36 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-10 20:07:36 INFO  web.soap.FileService:55 - Method delete file
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:90 - Method deleting file from server
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:98 - File is exists
+2019-03-10 20:07:36 INFO  lab.dao.FileDAO:100 - File is delete
+2019-03-10 20:07:36 INFO  web.soap.FileService:65 - Method delete file result:true
+2019-03-10 20:07:38 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:07:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:08:42 INFO  web.soap.FileService:18 - Method write file
+2019-03-10 20:08:42 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 20:08:42 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 20:08:42 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 20:08:42 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-10 20:08:43 INFO  web.soap.FileService:55 - Method delete file
+2019-03-10 20:08:43 INFO  lab.dao.FileDAO:90 - Method deleting file from server
+2019-03-10 20:08:43 INFO  lab.dao.FileDAO:98 - File is exists
+2019-03-10 20:08:43 INFO  lab.dao.FileDAO:100 - File is delete
+2019-03-10 20:08:43 INFO  web.soap.FileService:65 - Method delete file result:true
+2019-03-10 20:08:44 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:08:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:10:27 INFO  web.soap.FileService:18 - Method write file
+2019-03-10 20:10:27 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 20:10:27 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 20:10:27 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 20:10:27 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-10 20:10:28 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:10:28 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-10 20:13:44 INFO  web.soap.FileService:18 - Method write file
+2019-03-10 20:13:44 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-10 20:13:44 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-10 20:13:44 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-10 20:13:44 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-10 20:13:45 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-10 20:13:45 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 10:25:13 INFO  web.context.ContextLoader:285 - Root WebApplicationContext: initialization started
+2019-03-11 10:25:14 INFO  context.support.XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Mon Mar 11 10:25:14 EET 2019]; root of context hierarchy
+2019-03-11 10:25:14 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_soap.xml]
+2019-03-11 10:25:14 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-11 10:25:15 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_rest.xml]
+2019-03-11 10:25:15 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-11 10:25:15 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 10:25:15 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 10:25:15 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 10:25:15 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 10:25:16 INFO  factory.annotation.AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-11 10:25:21 INFO  web.context.ContextLoader:325 - Root WebApplicationContext: initialization completed in 7726 ms
+2019-03-11 10:51:57 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 10:51:57 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 10:51:57 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 10:51:57 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 10:51:59 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 10:51:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 10:53:09 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 10:53:09 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 10:53:09 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 10:53:09 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 10:53:09 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-11 10:53:10 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 10:53:10 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 10:54:36 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 10:54:36 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 10:54:36 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 10:54:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 10:56:30 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 10:56:30 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 10:56:30 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 10:56:30 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 10:56:32 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 10:56:32 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 10:57:34 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 10:57:34 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 10:57:34 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 10:57:34 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 10:57:34 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-11 10:57:35 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 10:57:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:05:41 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 11:05:41 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:05:41 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 11:05:41 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 11:05:41 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-11 11:05:44 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:05:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:20:24 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 11:20:24 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:20:24 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 11:20:24 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 11:20:24 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-11 11:20:26 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:20:26 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:21:05 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 11:21:05 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:21:05 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 11:21:05 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 11:21:05 INFO  web.soap.FileService:26 - Method write file result:true
+2019-03-11 11:21:07 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:21:07 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:21:36 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 11:21:36 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 11:21:36 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:21:36 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:21:37 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 11:21:37 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:21:37 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 11:21:37 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 11:21:38 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:21:38 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:26:52 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 11:26:52 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:26:52 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 11:26:52 WARN  web.rest.FileServiceImpl:36 - [New2] file already exist
+2019-03-11 11:26:53 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:26:53 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:26:55 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 11:26:55 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:26:55 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 11:26:55 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 11:26:56 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:26:56 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 11:27:59 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 11:27:59 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 11:27:59 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 11:27:59 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:34 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 12:52:34 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:34 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:34 WARN  web.rest.FileServiceImpl:36 - [New2] file already exist
+2019-03-11 12:52:35 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:35 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:42 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 12:52:42 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:42 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:42 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 12:52:43 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:43 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 12:52:43 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:43 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:43 WARN  web.rest.FileServiceImpl:36 - [New2] file already exist
+2019-03-11 12:52:44 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:44 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:44 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:44 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 12:52:44 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:44 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:45 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 12:52:45 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:45 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:45 WARN  web.rest.FileServiceImpl:36 - [New2] file already exist
+2019-03-11 12:52:57 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:57 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:58 INFO  web.soap.FileService:18 - Method write file
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 12:52:58 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 12:52:58 WARN  web.soap.FileService:22 - [New2] file already exist
+2019-03-11 12:52:58 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:52:58 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:52:59 INFO  web.rest.FileServiceImpl:46 - Method download file
+2019-03-11 12:52:59 INFO  lab.dao.FileDAO:64 - Method downloading file from server
+2019-03-11 12:52:59 INFO  lab.dao.FileDAO:74 - File is exists
+2019-03-11 12:53:03 WARN  web.rest.FileServiceImpl:51 - There is no file with  name [New2]
+2019-03-11 12:53:03 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:53:03 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:53:04 INFO  web.soap.FileService:32 - Method download file
+2019-03-11 12:53:04 INFO  lab.dao.FileDAO:64 - Method downloading file from server
+2019-03-11 12:53:04 INFO  lab.dao.FileDAO:74 - File is exists
+2019-03-11 12:53:04 WARN  web.soap.FileService:38 - There is no file with  name [New2]
+2019-03-11 12:53:05 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\New2
+2019-03-11 12:53:05 INFO  web.rest.FileServiceImpl:62 - Method delete file
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:90 - Method deleting file from server
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:98 - File is exists
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:100 - File is delete
+2019-03-11 12:53:05 INFO  web.rest.FileServiceImpl:73 - Method delete file result:true
+2019-03-11 12:53:05 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 12:53:05 INFO  web.soap.FileService:55 - Method delete file
+2019-03-11 12:53:05 INFO  lab.dao.FileDAO:90 - Method deleting file from server
+2019-03-11 12:53:05 WARN  lab.dao.FileDAO:102 - File isn't exists
+2019-03-11 12:53:05 WARN  web.soap.FileService:61 - There is no file with  name [New2]
+2019-03-11 12:53:06 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:44 - Method all file
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:52 - List of all file: 
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fd
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fdd
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\fddd
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 12:53:06 INFO  lab.dao.FileDAO:54 - File: src\main\resources\myResources\Hello4
+2019-03-11 13:10:19 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:10:19 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 13:20:12 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:20:12 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 13:20:28 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:20:28 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 13:24:19 INFO  web.context.ContextLoader:285 - Root WebApplicationContext: initialization started
+2019-03-11 13:24:19 INFO  context.support.XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Mon Mar 11 13:24:19 EET 2019]; root of context hierarchy
+2019-03-11 13:24:20 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_soap.xml]
+2019-03-11 13:24:20 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-11 13:24:21 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans_rest.xml]
+2019-03-11 13:24:21 INFO  factory.xml.XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2019-03-11 13:24:21 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 13:24:21 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 13:24:21 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 13:24:21 INFO  factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2019-03-11 13:24:21 INFO  factory.annotation.AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-11 13:24:24 INFO  web.context.ContextLoader:325 - Root WebApplicationContext: initialization completed in 5474 ms
+2019-03-11 13:41:06 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 13:41:06 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 13:41:06 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:51 - Method all file
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:59 - List of all file: 
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fd
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fdd
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fddd
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello4
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello4(1)
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello4(2)
+2019-03-11 13:41:06 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\New2
+2019-03-11 13:45:28 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 13:45:28 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:45:28 INFO  lab.dao.FileDAO:24 - File created: true
+2019-03-11 13:45:28 INFO  lab.dao.FileDAO:28 - File is less than 1MB 0
+2019-03-11 13:45:28 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 13:45:29 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:51 - Method all file
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:59 - List of all file: 
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fd
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fdd
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fddd
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello4
+2019-03-11 13:45:29 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\New2
+2019-03-11 13:46:57 INFO  web.rest.FileServiceImpl:27 - Method write file
+2019-03-11 13:46:57 INFO  lab.dao.FileDAO:15 - Method write file on server
+2019-03-11 13:46:57 WARN  lab.dao.FileDAO:34 - File is already create
+2019-03-11 13:46:57 INFO  web.rest.FileServiceImpl:33 - Method write file result:true
+2019-03-11 13:46:57 INFO  web.rest.FileServiceImpl:17 - Method get list all files
+2019-03-11 13:46:57 INFO  lab.dao.FileDAO:51 - Method all file
+2019-03-11 13:46:57 INFO  lab.dao.FileDAO:59 - List of all file: 
+2019-03-11 13:46:57 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fd
+2019-03-11 13:46:57 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fdd
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\fddd
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello.txt
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello1.txt
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello2.txt
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello3.txt
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\Hello4
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\New2
+2019-03-11 13:46:58 INFO  lab.dao.FileDAO:61 - File: src\main\resources\myResources\New2(1)
+2019-03-11 13:48:47 INFO  lab.dao.FileDAO:71 - Method downloading file from server
+2019-03-11 13:48:47 INFO  lab.dao.FileDAO:81 - File is exists
+2019-03-11 13:48:47 INFO  lab.dao.FileDAO:84 - File is download

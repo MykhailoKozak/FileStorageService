@@ -32,6 +32,13 @@ public class FileDAO {
                 }
             } else {
                 LOGGER.warn("File is already create");
+                for (int i = 1; i < 10; i++) {
+                    myfile = new java.io.File(PATH_FILE, name + "(" + i + ")");
+                    if (!myfile.exists()){
+                        isAdded = myfile.createNewFile();
+                        break;
+                    }
+                }
             }
 
         } catch (Exception e) {

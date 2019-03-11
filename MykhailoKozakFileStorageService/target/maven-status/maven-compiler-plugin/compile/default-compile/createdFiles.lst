@@ -1,10 +1,10 @@
-lab\web\fault\ServiceFaultInfo.class
-lab\model\File.class
 lab\web\soap\FileService.class
-lab\bo\FileBO.class
 lab\web\fault\FaultMessage.class
 lab\web\rest\FileService.class
 lab\web\soap\exeption\ServiceException.class
+lab\web\fault\ServiceFaultInfo.class
+lab\model\File.class
+lab\bo\FileBO.class
 lab\dao\FileDAO.class
 lab\web\rest\FileServiceImpl.class
 lab\web\soap\FileServiceImpl.class

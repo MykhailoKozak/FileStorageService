@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://soap.web.lab/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="FileServiceImplService" targetNamespace="http://soap.web.lab/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://soap.web.lab/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://soap.web.lab/">
+  <xs:element name="deleteFile" type="tns:deleteFile"/>
+  <xs:element name="deleteFileResponse" type="tns:deleteFileResponse"/>
+  <xs:element name="downloadFile" type="tns:downloadFile"/>
+  <xs:element name="downloadFileResponse" type="tns:downloadFileResponse"/>
+  <xs:element name="getListAllFiles" type="tns:getListAllFiles"/>
+  <xs:element name="getListAllFilesResponse" type="tns:getListAllFilesResponse"/>
+  <xs:element name="writeFile" type="tns:writeFile"/>
+  <xs:element name="writeFileResponse" type="tns:writeFileResponse"/>
+  <xs:complexType name="writeFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="writeFileResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="serviceFaultInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getListAllFiles">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="getListAllFilesResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteFileResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFileResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LibraryFault" type="tns:LibraryFault"/>
+  <xs:complexType name="LibraryFault">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="serviceFaultInfo" type="tns:serviceFaultInfo"/>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="writeFileResponse">
+    <wsdl:part element="tns:writeFileResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ServiceException">
+    <wsdl:part element="tns:LibraryFault" name="ServiceException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="downloadFileResponse">
+    <wsdl:part element="tns:downloadFileResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteFileResponse">
+    <wsdl:part element="tns:deleteFileResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteFile">
+    <wsdl:part element="tns:deleteFile" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="downloadFile">
+    <wsdl:part element="tns:downloadFile" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getListAllFilesResponse">
+    <wsdl:part element="tns:getListAllFilesResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="writeFile">
+    <wsdl:part element="tns:writeFile" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getListAllFiles">
+    <wsdl:part element="tns:getListAllFiles" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="FileService">
+    <wsdl:operation name="writeFile">
+      <wsdl:input message="tns:writeFile" name="writeFile">
+    </wsdl:input>
+      <wsdl:output message="tns:writeFileResponse" name="writeFileResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:ServiceException" name="ServiceException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getListAllFiles">
+      <wsdl:input message="tns:getListAllFiles" name="getListAllFiles">
+    </wsdl:input>
+      <wsdl:output message="tns:getListAllFilesResponse" name="getListAllFilesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFile">
+      <wsdl:input message="tns:deleteFile" name="deleteFile">
+    </wsdl:input>
+      <wsdl:output message="tns:deleteFileResponse" name="deleteFileResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:ServiceException" name="ServiceException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="downloadFile">
+      <wsdl:input message="tns:downloadFile" name="downloadFile">
+    </wsdl:input>
+      <wsdl:output message="tns:downloadFileResponse" name="downloadFileResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:ServiceException" name="ServiceException">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FileServiceImplServiceSoapBinding" type="tns:FileService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="writeFile">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="writeFile">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="writeFileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <soap:fault name="ServiceException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getListAllFiles">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getListAllFiles">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getListAllFilesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFile">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="deleteFile">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteFileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <soap:fault name="ServiceException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="downloadFile">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="downloadFile">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="downloadFileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <soap:fault name="ServiceException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileServiceImplService">
+    <wsdl:port binding="tns:FileServiceImplServiceSoapBinding" name="FileServiceImplPort">
+      <soap:address location="http://localhost:8080/MykhailoKozakFileStorageService/fileSOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
